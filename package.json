@@ -1,0 +1,29 @@
+{
+  "name": "tensorflow4js",
+  "version": "1.0.0",
+  "description": "tensorflow4js includes some tensorflow models",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archerasdo/tensorflow4js.git"
+  },
+  "keywords": [
+    "tensorflowjs"
+  ],
+  "author": "gongjian.gj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archerasdo/tensorflow4js/issues"
+  },
+  "homepage": "https://github.com/archerasdo/tensorflow4js#readme",
+  "dependencies": {
+    "@tensorflow-models/knn-classifier": "^0.2.2",
+    "@tensorflow/tfjs": "^0.13.3",
+    "@tensorflow/tfjs-node": "^0.1.19",
+    "co": "^4.6.0",
+    "mathjs": "^5.2.2"
+  }
+}
