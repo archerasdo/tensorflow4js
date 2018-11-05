@@ -20,10 +20,12 @@
   },
   "homepage": "https://github.com/archerasdo/tensorflow4js#readme",
   "dependencies": {
-    "@tensorflow-models/knn-classifier": "^0.2.2",
+    "@tensorflow-models/mobilenet": "^0.2.2",
     "@tensorflow/tfjs": "^0.13.3",
     "@tensorflow/tfjs-node": "^0.1.19",
+    "canvas": "^2.0.1",
     "co": "^4.6.0",
+    "get-image-data": "^3.0.1",
     "mathjs": "^5.2.2"
   }
 }

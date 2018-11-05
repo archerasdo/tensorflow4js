@@ -3,8 +3,18 @@
 const { knn } = require('../src/index')
 const fs = require('fs')
 const path = require('path')
-const co = require('co')
+// const img = require('get-image-data')
+// const mobilenet = require('@tensorflow-models/mobilenet')
 
+// img('./cat.jpeg', function(error, info) {
+//   mobilenet.load().then(model => {
+//     model.classify(info).then(predictions => {
+//       console.log(predictions)
+//     })
+//   })
+
+ 
+// })
 
 const dataPath = path.resolve('./data.csv')
 function getFeatures(featureTable, features) {
